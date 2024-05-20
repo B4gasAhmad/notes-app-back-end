@@ -14,3 +14,10 @@ nvm install <versi nodejs>
 cd notes-app-back- # buat masuk ke dalam folder notes-app-back-end
 npm install
 npm run start
+
+mengupgrade git
+git add .
+git commit -m "fix bugs host value"
+git push origin master 
+git pull origin master
+git push origin master
