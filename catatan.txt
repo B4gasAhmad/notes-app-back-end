@@ -1,1 +1,16 @@
 http://notesapp-v1.dicodingacademy.com/
+
+
+git init
+git add .
+git commit -m "initial commit"
+git remote add origin https://github.com/B4gasAhmad/notes-app-back-end.git
+git push origin master
+
+untuk di gcp
+git clone https://github.com/B4gasAhmad/notes-app-back-end.git
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.37.2/install.sh | bash
+nvm install <versi nodejs>
+cd notes-app-back- # buat masuk ke dalam folder notes-app-back-end
+npm install
+npm run start
